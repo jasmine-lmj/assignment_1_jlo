@@ -267,9 +267,14 @@ button {
 
 .blog_block{
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     height:70%;
     padding-bottom: 0;
+}
+
+.row_1,
+.row_2{
+    display:flex;
 }
 
 .block_1,
@@ -287,24 +292,22 @@ button {
 
 .block_1{
     display:flex;
-    justify-content: flex-end;
-    padding-right:5rem;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-right:3rem;
+    align-items: flex-end;
+    text-align: right;
+    
+
 }
 
-.block_1_content{
-    width:50%;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; 
-    justify-content: flex-end; 
-}
+
 
 .block_4{
     display:flex;
+    flex-direction: column;
     justify-content: flex-start;
-    padding-left:5rem;
+    /* padding-left:5rem; */
     align-items: center;
 }
 
