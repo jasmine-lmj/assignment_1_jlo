@@ -289,35 +289,34 @@ button {
     background-color:#F0F5FF;
 }
 
-
 .block_1{
+    display: flex;
+    justify-content: end;
+    padding-right: 6rem;
+}
+
+.block_1_content{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding-right:3rem;
     align-items: flex-end;
     text-align: right;
-    
-
+    width:50%;
 }
-
-
 
 .block_4{
     display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* padding-left:5rem; */
-    align-items: center;
+    padding-left:6rem;
+    
 }
 
 .block_4_content{
-    width:50%;
-    text-align: left;
     display: flex;
     flex-direction: column;
+    justify-content: center; 
     align-items: flex-start; 
-    justify-content: flex-start; 
+    text-align: left;
+    width:50%;
 }
 
 .blog_block h4{
@@ -469,6 +468,15 @@ input{
     flex-direction: column;
 }
 
+.row_1{
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.row_2{
+    flex-wrap: wrap;
+}
+
 .block_1,
 .block_2,
 .block_3,
@@ -478,9 +486,11 @@ input{
 
 .block_1_content,
 .block_4_content {
+    padding:4rem;
     justify-content: center;
     align-items: center;
     width:100%;
+    text-align: center;
 }
 
 .block_1,
@@ -489,7 +499,7 @@ input{
 }
 
 
----
+
 /* .block_1_content{
     width:50%;
     text-align: right;
