@@ -350,7 +350,6 @@ button {
     padding-bottom: 30px;
 }
 
-
 .footer ul{
     padding-left:0;
     line-height: 1.5rem;
@@ -410,7 +409,7 @@ input{
 }
 
 .welcome{
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
 }
 
 .city_image{
@@ -493,36 +492,54 @@ input{
     text-align: center;
 }
 
+.blog_block p {
+    width:60%;
+}
+
 .block_1,
 .block_4{
     padding:0;
 }
 
-
-
-/* .block_1_content{
-    width:50%;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; 
-    justify-content: flex-end; 
+.footer_container{
+    flex-wrap: wrap;
 }
 
-.block_4{
-    display:flex;
-    justify-content: flex-start;
-    padding-left:5rem;
+.footer_middle{
+    width:100%;
+}
+
+.form {
+    flex-direction: column;
+}
+input{
+    width:100%;
+    text-align: center;
+    font-size: 1rem;
+    height:2.5rem;
+}
+
+.form button{
+    margin-top:0.8rem;
+    font-weight: bold;
+    height:2.5rem;
+    text-align: center;
+    padding-top:10px;
+    line-height: normal;
+}
+.footer_container div:nth-child(2){
+    order:-2;
+}
+
+.footer_left,
+.footer_right{
+    text-align: center;
+    width:50%;
+}
+
+.lower_row{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-
-.block_4_content{
-    width:50%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    justify-content: flex-start; 
-} */
-
 }
